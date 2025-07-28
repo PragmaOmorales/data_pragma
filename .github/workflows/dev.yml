@@ -8,7 +8,7 @@ env:
   ASTRO_API_TOKEN: ${{ secrets.ASTRO_API_TOKEN_DEV }}
   ASTRO_WORKSPACE_ID_DEV: ${{ secrets.ASTRO_WORKSPACE_ID_DEV }}
   ASTRONOMER_DEPLOYMENT_ID_DEV: ${{ secrets.ASTRONOMER_DEPLOYMENT_ID_DEV }}
-
+  ASTRONOMER_SKIP_PARSE:     "true"
 jobs:
   deploy:
     runs-on: ubuntu-latest
